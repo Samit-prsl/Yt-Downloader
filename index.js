@@ -32,7 +32,7 @@ program
         const {folder : FolderName, name : FileName} = options
         try {
             const OutputPath = await downloadVideo(VideoURL,FolderName,FileName)
-            console.log(`Video downloaded to ${OutputPath}`);
+            //console.log(`Video downloaded to ${OutputPath}`);
         } catch (error) {
             console.log(error);
         }
